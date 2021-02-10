@@ -1,2 +1,2 @@
-# bestbrains-coding-test
-Best Brains Coding Proficiency Test
+# HTML Coding Proficiency
+An HTML site by Tim McDonald

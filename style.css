@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Jomhuria', cursive;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: crimson;
+    min-height: 15vh;
+}
+
+header {
+    border-bottom: darkred solid 10px;
+}
+
+footer {
+    border-top: darkred solid 10px;
+}
