@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 * {
     padding: 0;
@@ -9,25 +9,119 @@
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Jomhuria', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
 }
 
 header, footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: crimson;
+    background: #C6ECAE;
     min-height: 15vh;
+    width: 100%;
+    font-size: 1.75rem;
 }
 
 header {
-    border-bottom: darkred solid 10px;
+    border-bottom:10px solid #a2e182;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 footer {
-    border-top: darkred solid 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:10px solid #a2e182;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+section {
+    margin: 10px;
+}
+
+.intro {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   margin: 20px;
+   padding: 5px;
+}
+
+.intro div {
+    margin: 10px;
+}
+
+.comparison {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamelist {
+    border: 5px solid #a2e182;
+    border-radius: 10px;
+    background: #C6ECAE;
+    padding: 20px;
+    margin: 20px;
+}
+
+.centerText {
+    width: 50%;
+}
+
+.centerText a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.credit {
+    font-size: .75rem;
+    margin-top: 10px;
 }
